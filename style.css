@@ -1,0 +1,36 @@
+body {
+    background-color: #faebd7;
+    color: #56350a;
+}
+
+ul {
+    background-color: #56350a;
+    border-radius: 5px;
+    padding: 5px;
+    width: 87.5%;
+}
+
+li {
+    list-style-type: none;
+    margin: 1em 0.5em;
+    font-size: 1.25em;
+}
+
+a {
+    color: #faebd7;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: #faebd7;
+    color:#56350a;
+}
+
+
+
+img {
+    border-radius: 5px;
+    margin-bottom: 2em;
+}

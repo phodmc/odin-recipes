@@ -1,0 +1,31 @@
+body {
+    background-color: #9ddb95;
+    color: #1a3321;
+}
+
+img {
+    border-radius: 5px;
+}
+
+ol, ul {
+    margin-bottom: 2em;
+    background-color: #1a3321;
+    color: #9ddb95;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+li {
+    margin: .75em 0.5em;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: #1a3321;
+    color: #9ddb95;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
