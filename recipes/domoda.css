@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(241, 237, 229);
+}
+
+h1 {
+    background-color: orange;
+    font-size: 3em;
+    color: rgb(241, 237, 229);
+}
+
+h2 {
+    background-color: rgb(241, 209, 150);
+}
+
+p, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
