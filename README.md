@@ -11,4 +11,4 @@ Hi! In this project, am practicing all what I've learnt so far in HTML and that 
 - The self-closing `<img src=''/>` element
 - Unordered `<ul>`, Ordered `<ol>` and the list `<li>` elements
 
-The project also requires an understanding of the distributed version control called git. Staging, committing, pushing, and cloning of project files. 
+The project also requires an understanding of the distributed version control called git. Staging, committing, pushing, and cloning of project files. /home/mstrchf/Documents/codes/theodinproject/foundation/projects/odin-recipes
