@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
 
     <style>
-        body {
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(to bottom, #fff 10%, #3075b5);
-            background-repeat: no-repeat;
-            height: 100vh;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to bottom, #fff 50%, #0c6900ea);
+        background-repeat: no-repeat;
+        padding: 1rem;
+        height: 100vh;
+      }
+
+      h1 {
+        color: #000000;
+        width: fit-content;
+        font-size: 4rem;
+        margin: 1rem 0 2rem auto;
+        padding: 2rem;
+        background: linear-gradient(to right, #fff 25%, #0c6900ea);
+        border-radius: 10px;
+      }
+
+      li {
+        display: inline;
+        list-style-type: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.5rem;
+        margin: 1rem;
+        padding: 1rem;
+        background: #0c690077;
+        border-radius: 10px;
+        display: inline-block;
+      }
+
+      a:hover {
+        color: aliceblue;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .img {
+        width: 50%;
+        margin: 0 auto;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Odin Recipes</h1>
 
     <ul>
-        <li><a href="./recipes/benachin.html">Benachin</a></li>
-        <li><a href="./recipes/domoda.html">Domoda</a></li>
-        <li><a href="./recipes/supa.html">Supa</a></li>
+      <li><a href="./recipes/benachin.html">Benachin</a></li>
+      <li><a href="./recipes/domoda.html">Domoda</a></li>
+      <li><a href="./recipes/supa.html">Supa Kanja</a></li>
     </ul>
 
-</body>
+    <div class="img"><img src="./images/recipe3.png" alt="" /></div>
+  </body>
 </html>
